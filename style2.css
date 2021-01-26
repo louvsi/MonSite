@@ -1,0 +1,218 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+
+
+	body {
+		background: #443131;
+	}
+
+		.logo { 
+	max-width: 150px;
+	position : absolute; left : 10px; top : 10px; 
+	}
+
+		#header {
+		position: relative;
+		background: #6b6262;
+		text-align: center;
+		justify-content: center;
+	}
+
+
+		#header .container {
+			padding: 12em 0 7em 0;
+			border-bottom: solid 2px #e5e5e5;
+			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #ffffff;
+		}
+
+		#header h1 {
+			font-family: 'Arvo';
+			font-weight: 700;
+			color: #ffffff;
+			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+			font-size: 3em;
+			letter-spacing: 13px;
+		}
+
+	#menu {
+		position: absolute;
+		top: 3em;
+		left: 0;
+		width: 100%;
+		cursor: default;
+	}
+
+		#menu > ul > li {
+			display: inline-block;
+			padding-right: 2em;
+		}
+
+
+			#menu > ul > li > a {
+				border: 0;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-weight: 400;
+				color: #f5f5f5;
+				outline: 0;
+				display: block;
+			}
+
+		.row {
+			justify-content: center; 
+			
+			}
+
+		.card {
+			margin: 40px;
+			}
+
+
+#banner {
+		text-align: center;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+		position: relative;
+		background: url("images/mag.jpg");
+		padding: 10em;
+		}
+
+		#banner p {
+			font-weight: 500;
+			font-size: 4em;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+			text-align: center;
+			margin: 0;
+			color : white;
+		}
+
+
+		/* REPONSIVE MOBILE */
+
+		@media screen and (max-width: 600px) {
+
+
+	h2, h3, h4, h5, h6 {
+
+	font-size: 1.2em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 0 1em 0;
+    color: black;
+
+    }
+
+    #header {
+		position: relative;
+		background: #6b6262;
+		text-align: center;
+		justify-content: center;
+	}
+
+
+		#header .container h1 {
+			font-family: 'Arvo';
+			font-weight: 500;
+			color: white;
+			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+			font-size: 2em;
+			letter-spacing: 10px;
+			justify-content: center;
+		}
+
+
+	body, input, textarea, select {
+		font-weight: 300;
+		color: #f7f7f7;
+		line-height: 1.65em;
+		font-size: 10pt;
+
+	}
+
+
+	h2 {
+		font-size: 1em;
+		font-weight: 200;
+		letter-spacing: 4px;
+		margin: 0 0 1.5em 0;
+		line-height: 1.75em;
+	}
+
+	h3 {
+		font-size: 1em;
+		letter-spacing: 2px;
+		color: inherit;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+
+	}
+
+
+	p {
+		text-align: justify;
+		margin-bottom: 1em;
+		color: black;
+	}
+
+	.logo { 
+	max-width: 60px;
+	position : absolute; left : 10px; top : 10px; 
+	}
+
+	.container {
+		max-width: 100%;
+		width: 50em;
+	}
+
+	#banner {
+		position: relative;
+		background: #fff;
+		color: #fff;
+		text-align: center;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+		position: relative;
+		text-transform: uppercase;
+		background: url("images/mag.jpg");
+		background-size: cover;
+		padding: 9em 0;
+	}
+
+		#banner p {
+			font-weight: 300;
+			font-size: 2em;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+			text-align: center;
+			margin: 0;
+		}
+
+		.center {
+			width: 60%;
+			}
+
+
+		.row {
+			justify-content: center; 
+			
+			}
+
+		.element.style {
+    	width: 40%;
+    	height: 60%;
+    	text-align: center;
+		}
+
+			ul {
+		list-style: disc;
+		padding-left: 1em;
+	}
+
+
+	
